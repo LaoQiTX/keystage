@@ -176,10 +176,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/LaoQiTX/code-demo-typer.git"
+    "url": "https://github.com/LaoQiTX/keystage.git"
   },
-  "homepage": "https://github.com/LaoQiTX/code-demo-typer#readme",
+  "homepage": "https://github.com/LaoQiTX/keystage#readme",
   "bugs": {
-    "url": "https://github.com/LaoQiTX/code-demo-typer/issues"
+    "url": "https://github.com/LaoQiTX/keystage/issues"
   }
 }
