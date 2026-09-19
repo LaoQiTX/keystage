@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Language="en-US" Id="code-demo-typer" Version="1.2.0" Publisher="local-demo" />
-    <DisplayName>Code Demo Typer</DisplayName>
-    <Description xml:space="preserve">Type preset code with arbitrary keystrokes.</Description>
+    <Identity Language="en-US" Id="code-demo-typer" Version="1.2.1" Publisher="local-demo" />
+    <DisplayName>KeyStage</DisplayName>
+    <Description xml:space="preserve">KeyStage: present prepared code with arbitrary keystrokes.</Description>
     <Tags>demo,typing,python</Tags>
     <Categories>Other</Categories>
     <GalleryFlags>Public</GalleryFlags>

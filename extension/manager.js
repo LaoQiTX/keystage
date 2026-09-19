@@ -1,5 +1,5 @@
 function managerHtml(nonce) {
-  return `<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8">
+  return `<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><title>KeyStage · 预设管理</title>
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'nonce-${nonce}'; script-src 'nonce-${nonce}';">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style nonce="${nonce}">
@@ -10,7 +10,7 @@ function managerHtml(nonce) {
   textarea{flex:1;min-height:140px;resize:none;white-space:pre;tab-size:4;font:14px/1.6 var(--vscode-editor-font-family,monospace);padding:16px}button{border:0;padding:9px 14px;cursor:pointer;background:var(--vscode-button-secondaryBackground);color:var(--vscode-button-secondaryForeground)}.primary{background:var(--vscode-button-background);color:var(--vscode-button-foreground)}
   :focus-visible{outline:1px solid var(--vscode-focusBorder);outline-offset:2px}footer{display:flex;gap:8px;align-items:center;flex-wrap:wrap}#count{margin-right:auto;color:var(--vscode-descriptionForeground);font-size:12px}
   </style></head><body><main>
-  <h1>代码预设</h1><p>为每段演示准备独立内容。保存后返回代码文件，用对应快捷键从光标处开始。</p>
+  <h1>KeyStage · 代码预设</h1><p>为每段演示准备独立内容。保存后返回代码文件，用对应快捷键从光标处开始。</p>
   <div class="toolbar"><label>快捷槽位<select id="slot" aria-label="快捷槽位"></select></label><label class="name">名称<input id="name" maxlength="80" autocomplete="off"></label></div>
   <label for="code">内容 · 保留空格、Tab 和换行</label><textarea id="code" spellcheck="false" aria-label="预设代码"></textarea>
   <p>数字快捷键从头启动 · Ctrl+Alt+D 暂停/继续 · Esc 结束。Python 缩进请按目标位置准备。</p>

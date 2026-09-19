@@ -6,8 +6,9 @@ $manifestPath = Join-Path $PSScriptRoot 'extension.vsixmanifest'
 [xml]$manifest = Get-Content -Raw -Encoding UTF8 -LiteralPath $manifestPath
 $manifest.PackageManifest.Metadata.Identity.Version = $package.version
 $manifest.PackageManifest.Metadata.Identity.Publisher = $package.publisher
+$manifest.PackageManifest.Metadata.DisplayName = $package.displayName
 $manifest.Save($manifestPath)
-$destination = Join-Path $PSScriptRoot ("code-demo-typer-" + $package.version + '.vsix')
+$destination = Join-Path $PSScriptRoot ("keystage-" + $package.version + '.vsix')
 $stream = [IO.File]::Open($destination, [IO.FileMode]::Create)
 $archive = New-Object IO.Compression.ZipArchive($stream, [IO.Compression.ZipArchiveMode]::Create)
 try {

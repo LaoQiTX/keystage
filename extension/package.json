@@ -1,8 +1,8 @@
 {
   "name": "code-demo-typer",
-  "displayName": "Code Demo Typer",
-  "description": "静默代码演示：10 个独立预设、数字快捷键启动、原位输入与删除重打。",
-  "version": "1.2.0",
+  "displayName": "KeyStage",
+  "description": "KeyStage · 键盘上的演示舞台。10 个快捷键预设、原位输入、缩进保留与删除重打。",
+  "version": "1.2.1",
   "publisher": "local-demo",
   "engines": {
     "vscode": "^1.75.0"
@@ -18,59 +18,59 @@
     "commands": [
       {
         "command": "codeDemo.toggle",
-        "title": "演示输入：开启 / 暂停"
+        "title": "KeyStage：开启 / 暂停"
       },
       {
         "command": "codeDemo.new",
-        "title": "演示输入：设置预设内容"
+        "title": "KeyStage：设置预设内容"
       },
       {
         "command": "codeDemo.reset",
-        "title": "演示输入：从预设开头重新输入"
+        "title": "KeyStage：从预设开头重新输入"
       },
       {
         "command": "codeDemo.stop",
-        "title": "演示输入：结束"
+        "title": "KeyStage：结束"
       },
       {
         "command": "codeDemo.preset1",
-        "title": "演示输入：启动预设 1"
+        "title": "KeyStage：启动预设 1"
       },
       {
         "command": "codeDemo.preset2",
-        "title": "演示输入：启动预设 2"
+        "title": "KeyStage：启动预设 2"
       },
       {
         "command": "codeDemo.preset3",
-        "title": "演示输入：启动预设 3"
+        "title": "KeyStage：启动预设 3"
       },
       {
         "command": "codeDemo.preset4",
-        "title": "演示输入：启动预设 4"
+        "title": "KeyStage：启动预设 4"
       },
       {
         "command": "codeDemo.preset5",
-        "title": "演示输入：启动预设 5"
+        "title": "KeyStage：启动预设 5"
       },
       {
         "command": "codeDemo.preset6",
-        "title": "演示输入：启动预设 6"
+        "title": "KeyStage：启动预设 6"
       },
       {
         "command": "codeDemo.preset7",
-        "title": "演示输入：启动预设 7"
+        "title": "KeyStage：启动预设 7"
       },
       {
         "command": "codeDemo.preset8",
-        "title": "演示输入：启动预设 8"
+        "title": "KeyStage：启动预设 8"
       },
       {
         "command": "codeDemo.preset9",
-        "title": "演示输入：启动预设 9"
+        "title": "KeyStage：启动预设 9"
       },
       {
         "command": "codeDemo.preset10",
-        "title": "演示输入：启动预设 10"
+        "title": "KeyStage：启动预设 10"
       }
     ],
     "keybindings": [

@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [{
-    "name": "Run Code Demo Typer",
+    "name": "Run KeyStage",
     "type": "extensionHost",
     "request": "launch",
     "args": ["--extensionDevelopmentPath=${workspaceFolder}/extension"]

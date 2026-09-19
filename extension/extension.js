@@ -50,7 +50,7 @@ function activate(context) {
     if (session) session.running = false;
     refresh();
     if (panel) { panel.reveal(); return; }
-    panel = vscode.window.createWebviewPanel('codeDemo.preset', '预设内容', vscode.ViewColumn.Beside, {
+    panel = vscode.window.createWebviewPanel('codeDemo.preset', 'KeyStage · 预设管理', vscode.ViewColumn.Beside, {
       enableScripts: true, retainContextWhenHidden: true, localResourceRoots: []
     });
     const nonce = randomBytes(16).toString('hex');

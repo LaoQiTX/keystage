@@ -15,5 +15,5 @@ jobs:
       - run: npm run package
       - uses: actions/upload-artifact@v4
         with:
-          name: code-demo-typer-vsix
-          path: code-demo-typer-*.vsix
+          name: keystage-vsix
+          path: keystage-*.vsix
