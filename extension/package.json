@@ -1,0 +1,185 @@
+{
+  "name": "code-demo-typer",
+  "displayName": "Code Demo Typer",
+  "description": "静默代码演示：10 个独立预设、数字快捷键启动、原位输入与删除重打。",
+  "version": "1.2.0",
+  "publisher": "local-demo",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "codeDemo.toggle",
+        "title": "演示输入：开启 / 暂停"
+      },
+      {
+        "command": "codeDemo.new",
+        "title": "演示输入：设置预设内容"
+      },
+      {
+        "command": "codeDemo.reset",
+        "title": "演示输入：从预设开头重新输入"
+      },
+      {
+        "command": "codeDemo.stop",
+        "title": "演示输入：结束"
+      },
+      {
+        "command": "codeDemo.preset1",
+        "title": "演示输入：启动预设 1"
+      },
+      {
+        "command": "codeDemo.preset2",
+        "title": "演示输入：启动预设 2"
+      },
+      {
+        "command": "codeDemo.preset3",
+        "title": "演示输入：启动预设 3"
+      },
+      {
+        "command": "codeDemo.preset4",
+        "title": "演示输入：启动预设 4"
+      },
+      {
+        "command": "codeDemo.preset5",
+        "title": "演示输入：启动预设 5"
+      },
+      {
+        "command": "codeDemo.preset6",
+        "title": "演示输入：启动预设 6"
+      },
+      {
+        "command": "codeDemo.preset7",
+        "title": "演示输入：启动预设 7"
+      },
+      {
+        "command": "codeDemo.preset8",
+        "title": "演示输入：启动预设 8"
+      },
+      {
+        "command": "codeDemo.preset9",
+        "title": "演示输入：启动预设 9"
+      },
+      {
+        "command": "codeDemo.preset10",
+        "title": "演示输入：启动预设 10"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codeDemo.toggle",
+        "key": "ctrl+alt+d",
+        "mac": "cmd+alt+d"
+      },
+      {
+        "command": "codeDemo.new",
+        "key": "ctrl+alt+r",
+        "mac": "cmd+alt+r"
+      },
+      {
+        "command": "codeDemo.reset",
+        "key": "ctrl+alt+home",
+        "mac": "cmd+alt+home"
+      },
+      {
+        "command": "codeDemo.stop",
+        "key": "escape",
+        "when": "codeDemo.active && editorTextFocus"
+      },
+      {
+        "command": "codeDemo.step",
+        "key": "enter",
+        "when": "codeDemo.active && editorTextFocus"
+      },
+      {
+        "command": "codeDemo.step",
+        "key": "tab",
+        "when": "codeDemo.active && editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset1",
+        "key": "ctrl+alt+1",
+        "mac": "cmd+alt+1",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset2",
+        "key": "ctrl+alt+2",
+        "mac": "cmd+alt+2",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset3",
+        "key": "ctrl+alt+3",
+        "mac": "cmd+alt+3",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset4",
+        "key": "ctrl+alt+4",
+        "mac": "cmd+alt+4",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset5",
+        "key": "ctrl+alt+5",
+        "mac": "cmd+alt+5",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset6",
+        "key": "ctrl+alt+6",
+        "mac": "cmd+alt+6",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset7",
+        "key": "ctrl+alt+7",
+        "mac": "cmd+alt+7",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset8",
+        "key": "ctrl+alt+8",
+        "mac": "cmd+alt+8",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset9",
+        "key": "ctrl+alt+9",
+        "mac": "cmd+alt+9",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codeDemo.preset10",
+        "key": "ctrl+alt+0",
+        "mac": "cmd+alt+0",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "license": "MIT",
+  "keywords": [
+    "demo",
+    "typing",
+    "presentation",
+    "python",
+    "snippets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaoQiTX/code-demo-typer.git"
+  },
+  "homepage": "https://github.com/LaoQiTX/code-demo-typer#readme",
+  "bugs": {
+    "url": "https://github.com/LaoQiTX/code-demo-typer/issues"
+  }
+}

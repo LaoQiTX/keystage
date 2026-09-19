@@ -1,0 +1,11 @@
+{
+  "name": "code-demo-typer-dev",
+  "private": true,
+  "version": "1.2.0",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check extension/extension.js && node --check extension/manager.js && node --check extension/presets.js && node --check extension/replay.js",
+    "package": "powershell -NoProfile -ExecutionPolicy Bypass -File build.ps1"
+  },
+  "engines": { "node": ">=20" }
+}
